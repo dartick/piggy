@@ -1,4 +1,4 @@
-package org.piggy.test.utils.es.db.compare.model;
+package org.piggy.test.utils.service.compare.model;
 
 /**
  * @author chenhongfa

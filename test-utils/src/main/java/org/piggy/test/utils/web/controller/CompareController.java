@@ -1,11 +1,11 @@
-package org.piggy.test.utils.controller;
+package org.piggy.test.utils.web.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.piggy.test.utils.es.db.compare.comparator.JsonPatchComparator;
-import org.piggy.test.utils.es.db.compare.model.CompareQTO;
-import org.piggy.test.utils.es.db.compare.query.DBQuery;
-import org.piggy.test.utils.es.db.compare.query.EsQuery;
+import org.piggy.test.utils.service.compare.comparator.JsonPatchComparator;
+import org.piggy.test.utils.service.compare.model.CompareQTO;
+import org.piggy.test.utils.service.compare.query.DBQuery;
+import org.piggy.test.utils.service.compare.query.EsQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

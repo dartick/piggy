@@ -1,4 +1,4 @@
-package org.piggy.test.utils.config;
+package org.piggy.test.utils.web.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -33,7 +33,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfo(
-                "es-db-org.piggy.test.utils.es.db.compare",
+                "es-db-org.piggy.test.utils.service.compare",
                 "",
                 "API V1.0",
                 "",

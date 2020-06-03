@@ -2,7 +2,7 @@ server:
   port: 8188
 spring:
   application:
-    name: db-es-org.piggy.test.utils.es.db.compare
+    name: db-es-org.piggy.test.utils.service.compare
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/security_oauth?serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
     driver-class-name: 'com.mysql.cj.jdbc.Driver'
