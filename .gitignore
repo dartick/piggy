@@ -37,3 +37,4 @@ logs/
 .project
 .DS_Store
 .out
+application.yml
